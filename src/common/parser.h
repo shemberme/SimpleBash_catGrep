@@ -6,7 +6,7 @@ typedef struct opts {
   /* data */
 } Flags;
 
-void flags_on(char* argv, Flags* opts);
-void openfile_with_flag(char* filename, Flags* opts);
+int flags_on (const int argc, char *argv[] ,Flags *opts);
+void openfile_with_flag(const char *filename,const Flags *opts);
 
 #endif

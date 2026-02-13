@@ -6,7 +6,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 # Путь к твоей программе
-MY_CAT=".././bin/main"
+MY_CAT="./src/cat/s21_cat"
 
 # Создаем тестовые файлы, если их нет
 echo -e "line 1\n\n\nline 2\n\nline 3" > test_s.txt
