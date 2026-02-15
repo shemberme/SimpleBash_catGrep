@@ -1,10 +1,9 @@
-### cat options
+### Опции cat
 
-| No. | Options | Description |
+| № | Опции | Описание |
 | ------ | ------ | ------ |
-| 1 | -b (GNU: --number-nonblank) | numbers only non-empty lines |
-| 2 | -e (implies -v), -E (GNU only: without -v) | displays `$` at line ends (displays `^M$` on Windows `\r\n` lines) |
-| 3 | -n (GNU: --number) | number all output lines |
-| 4 | -s (GNU: --squeeze-blank) | squeeze multiple adjacent blank lines |
-| 5 | -t implies -v (GNU: -T the same, but without implying -v) | but also display tabs as ^I  |
-
+| 1 | -b (GNU: --number-nonblank) | нумерует только непустые строки |
+| 2 | -e (предполагает -v), -E (GNU only: без применения -v) | отображает символы конца строки как `$`; для `\r\n` отображает `^M$` |
+| 3 | -n (GNU: --number) | нумерует все выходные строки |
+| 4 | -s (GNU: --squeeze-blank) | сжимает несколько смежных пустых строк |
+| 5 | -t предполагает и -v (GNU: -T то же самое, но без применения -v) | также отображает табы как ^I |
